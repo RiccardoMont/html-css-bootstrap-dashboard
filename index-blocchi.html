@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+<header class="bg-dark d-flex justify-content-between align-items-center p-3">
+    <div class="Logo p-4 bg-danger"></div>
+    <div class="hamburger p-3 bg-primary"></div>
+</header>
+<main>
+    <div class="container justify-content-center px-5 py-5">
+        <div class="row">
+            <div class="intestazione d-flex justify-content-between align-items-center">
+                <div class="catalogo"><h2>Catalogo Libri</h2></div>
+                <div class="btn btn-primary">Aggiungi Libro</div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Titolo</th>
+                        <th class="d-none d-sm-block">Data prestito</th>
+                        <th>Stato</th>
+                        <th class="text-center">Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-warning text-white px-3 align-self-center">In prestito</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-danger text-white px-3 align-self-center">Non disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-warning text-white px-3 align-self-center">In prestito</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-danger text-white px-3 align-self-center">Non disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-warning text-white px-3 align-self-center">In prestito</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bg-secondary-subtle"><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="bg-secondary-subtle d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class="bg-secondary-subtle"><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 bg-secondary-subtle align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
+                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="etichetta rounded-pill bg-success text-white px-3 align-self-center">Disponibile</span></td>
+                        <td class="d-flex justify-content-center gap-3 align-items-center">
+                            <div class="bg-danger px-2 text-danger">a</div>
+                            <div class="bg-black px-2">b</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</main>
+<footer>
+
+</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
