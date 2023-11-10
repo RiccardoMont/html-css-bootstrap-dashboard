@@ -18,122 +18,170 @@
                 <div class="catalogo"><h2>Catalogo Libri</h2></div>
                 <div class="btn btn-primary">Aggiungi Libro</div>
             </div>
-            <table class="table table-striped">
+            <table class="table table-striped table-hover">
                 <thead>
                     <tr>
-                        <th>Titolo</th>
-                        <th class="d-none d-sm-block">Data prestito</th>
-                        <th>Stato</th>
-                        <th class="text-center">Azioni</th>
+                        <th class="col-5">Titolo</th>
+                        <th class="d-none d-md-table-cell col-md-2">Data prestito</th>
+                        <th class="col-3">Stato</th>
+                        <th class="col-2 text-center">Azioni</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="">
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                    <tr class="py-1">
+                        <td class=""><span class="">I pilastri della terra</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td class=""><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1 d-inline"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1 d-inline"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">I promessi sposi</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class=""><span class="">Il signore degli anelli</span></td>
+                        <td class="d-none d-md-table-cell"><span>18/10/2023</span></td>
                         <td class=""><span class="badge bg-warning">In prestito</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">Harry Potter e la pietra filosofale</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class=""><span class="">Il codice Da Vinci</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td class=""><span class="badge bg-danger">Non disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">Shining</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class=""><span class="">La divina commedia</span></td>
+                        <td class="d-none d-md-table-cell"><span>21/09/2023</span></td>
                         <td class=""><span class="badge bg-warning">In prestito</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">Il trono di spade</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class=""><span class="">Il mondo di Sofia</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td class=""><span class="badge bg-danger">Non disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">Le cronache di Narnia: il leone, la strega e l'armadio</span></td>
+                        <td class="d-none d-md-table-cell"><span>25/07/2023</span></td>
                         <td><span class="badge bg-warning">In prestito</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td class=""><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td class=""><span class="">Il piccolo principe</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td class=""><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                     <tr>
-                        <td><span class="title px-4 py-1 bg-info rounded-2">title</span></td>
-                        <td class="d-none d-sm-block"><span class="date px-2 bg-dark rounded-5">21/12/2012</span></td>
+                        <td><span class="">La storia infinita</span></td>
+                        <td class="d-none d-md-table-cell"><span>-</span></td>
                         <td><span class="badge text-bg-success">Disponibile</span></td>
-                        <td class="d-flex justify-content-center gap-3 align-items-center">
-                            <div class="bg-danger px-2 text-danger">a</div>
-                            <div class="bg-black px-2">b</div>
+                        <td class="px-0 py-3 text-center w-100">
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                              </svg></a>
+                            <a href="#" class="border border-1 border-secondary rounded px-2 pb-2 pt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill text-secondary" viewBox="0 0 16 16">
+                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                              </svg></a>
                         </td>
                     </tr>
                 </tbody>
